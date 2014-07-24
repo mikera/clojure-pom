@@ -4,7 +4,7 @@
 	<groupId>net.mikera</groupId>
 	<version>0.1.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<url>https://github.com/mikera/${project.artifactId}</url>
+	<url>https://github.com/mikera/clojure-pom</url>
 
 	<name>Clojure-POM</name>
 	<description>A generic parent pom.xml for Clojure projects, based on mikera-pom</description>
@@ -17,7 +17,7 @@
 
 	<scm>
 		<connection>scm:git:git@github.com:mikera/${project.artifactId}.git</connection>
-		<url>https://github.com/mikera/${project.artifactId}</url>
+		<url>https://github.com/mikera/clojure-pom</url>
 		<developerConnection>scm:git:git@github.com:mikera/${project.artifactId}.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
