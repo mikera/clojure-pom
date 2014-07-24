@@ -14,6 +14,13 @@
 		<artifactId>mikera-pom</artifactId>
 		<version>0.1.0</version>
 	</parent>
+	
+	<licenses>
+		<license>
+			<name>Eclipse Public License (EPL)</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+		</license>
+	</licenses>
 
 	<scm>
 		<connection>scm:git:git@github.com:mikera/${project.artifactId}.git</connection>
