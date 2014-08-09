@@ -62,7 +62,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.4</version><!--$NO-MVN-MAN-VER$-->
+				<version>2.5</version><!--$NO-MVN-MAN-VER$-->
 				<configuration>
 					<mavenExecutorId>forked-path</mavenExecutorId><!-- Needed to stop hang 
 						with GPG passphrase. Odd but true.... -->
@@ -104,7 +104,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-gpg-plugin</artifactId>
-						<version>1.4</version>
+						<version>1.5</version>
 						<executions>
 							<execution>
 								<id>sign-artifacts</id>
